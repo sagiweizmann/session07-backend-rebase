@@ -1,0 +1,32 @@
+# compiled output
+dist/
+build/
+# dependencies
+node_modules/
+# testing
+coverage/
+# production
+.env
+# IDEs
+.idea/
+.vscode/
+# logs
+logs/
+*.log
+# misc
+.DS_Store
+*.swp
+*.swo
+# temporary files
+tmp/
+temp/
+# TypeScript specific
+*.tsbuildinfo
+# Yarn Integrity file
+.yarn-integrity
+# npm package lock
+package-lock.json
+# pnpm lock file
+pnpm-lock.yaml
+
+
