@@ -31,7 +31,6 @@ export const getUserByEmail = async (req: Request, res: Response) => {
   try {
     const user = await fetchUserByEmail(db, email);
 
-    console.log('email:', email);
     if (!user) {
       return res.sendStatus(404);
     }
